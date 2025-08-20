@@ -13,6 +13,7 @@ export default defineConfig({
       { text: '语义与资源管理', link: '/'},
       { text: '模板与泛型编程', link: '/'},
       { text: '并发编程', link: '/'},
+      { text: '网络编程', link: '/'},
       { text: '工具库', link: '/'},
       { text: '实践', link: '/'},
       { text: '源码阅读', link: '/'}
