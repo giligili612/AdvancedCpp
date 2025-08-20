@@ -73,19 +73,19 @@ export default defineConfig({
       ]
     },
     {
-      text: '控件篇',
+      text: 'CMake基础',
       collapsed: false,
       items: [
-        { text: 'QWidget 基础', link: '/widgets/qwidget' },
+        { text: '看看怎么个事', link: '/widgets/qwidget' },
         { text: 'QPushButton', link: '/widgets/qpushbutton' }
       ]
     },
     {
-      text: '进阶技巧',
+      text: 'CMake高级',
       collapsed: false,
       items: [
-        { text: '信号与槽', link: '/advanced/signals-slots' },
-        { text: '事件处理', link: '/advanced/events' }
+        { text: 'CMake实践', link: '/advanced/signals-slots' },
+        { text: '交叉编译', link: '/advanced/events' }
       ]
     }
     ]
