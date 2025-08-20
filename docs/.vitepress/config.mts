@@ -54,7 +54,7 @@ export default defineConfig({
       ]
     }
     ],
-    '/cmake': [
+    '/cmake/': [
     {
       text: '首页',link: '/'
     },
@@ -62,7 +62,7 @@ export default defineConfig({
       text: 'ModernCMake教程',
       collapsed: false,
       items: [
-        { text: 'Qt的安装',
+        { text: 'CMake安装',
           collapsed: true, 
           items:[
             { text: 'Qt界面', link: '/guide/getting-started'}
