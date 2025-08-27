@@ -23,58 +23,20 @@ export default defineConfig({
     {
       text: '首页',link: '/'
     },
-    {
-      text: 'ModernCMake教程',
-      collapsed: false,
-      items: [
-        { text: 'Qt的安装',
-          collapsed: true, 
-          items:[
-            { text: 'Qt界面', link: '/guide/getting-started'}
-          ]
-        },
-        { text: '快速开始', link: '/guide/getting-started' },
-        { text: '搭建开发环境', link: '/guide/setup' }
-      ]
-    },
-    {
-      text: '控件篇',
-      collapsed: false,
-      items: [
-        { text: 'QWidget 基础', link: '/widgets/qwidget' },
-        { text: 'QPushButton', link: '/widgets/qpushbutton' }
-      ]
-    },
-    {
-      text: '进阶技巧',
-      collapsed: false,
-      items: [
-        { text: '信号与槽', link: '/advanced/signals-slots' },
-        { text: '事件处理', link: '/advanced/events' }
-      ]
-    }
     ],
     '/cmake/': [
     {
-      text: '首页',link: '/'
-    },
-    {
-      text: 'ModernCMake教程',
-      collapsed: false,
+      text: '先用起来',
+      collapsed: true,
       items: [
-        { text: 'CMake安装',
-          collapsed: true, 
-          items:[
-            { text: 'Qt界面', link: '/guide/getting-started'}
-          ]
-        },
-        { text: '快速开始', link: '/guide/getting-started' },
-        { text: '搭建开发环境', link: '/guide/setup' }
+        { text: '安装CMake', link: '/cmake/先用起来/安装CMake' },
+        { text: '第一个CMake项目', link: '/cmake/先用起来/第一个CMake项目'},
+        { text: '编译使用静态库与动态库', link: '/cmake/先用起来/编译使用静态库与动态库'}
       ]
     },
     {
       text: 'CMake基础',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: '看看怎么个事', link: '/widgets/qwidget' },
         { text: 'QPushButton', link: '/widgets/qpushbutton' }
@@ -82,7 +44,7 @@ export default defineConfig({
     },
     {
       text: 'CMake高级',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: 'CMake实践', link: '/advanced/signals-slots' },
         { text: '交叉编译', link: '/advanced/events' }
