@@ -9,3 +9,10 @@
 本文档会有少数AI生成的总结性文字，我会亲自审核，而行动、逻辑的行文主干仍然由我编写。（私以为写文档应该适当用AI，用多了则缺乏自己的思考且没什么人味儿，用少了又是浪费时间，整个文档的框架与行文逻辑都是我把握的，不会东一榔头西一棒子）
 
 欢迎各位给我发邮件提文档的修改意见：huangzekun0703@gmail.com
+
+参考资料：
+
+- 夏曹俊CMake构建大型C++项目视频
+- 《Professional CMake A Practical Guide》
+- 《CMake Best Practices》
+- 《Modern CMake for C++ 2ed》

@@ -94,3 +94,6 @@ Hello CMake
 - `cmake --build build`
   - 根据build里的施工图纸开始施工
   - 构建出来的可执行程序也放在build里
+
+## 小练习
+多加几个cpp文件，将单文件项目扩展成一个多文件项目，在add_executable一句把cpp文件都加入进去，再试一次。
